@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+div image {
+    max-width: 220px;
+    height: auto;
+}
